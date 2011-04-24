@@ -19,6 +19,7 @@
         // Initialization code here.
         // -> Read File                            /// FIXME: Error handling
         wordListFile = [[NSBundle mainBundle] pathForResource: @"words" ofType: nil];
+        NSLog(@"The wordListFile is: %@", wordListFile);
         NSString *wordList = [NSString stringWithContentsOfFile:wordListFile encoding:NSUTF8StringEncoding error:nil];
         // -> Process word by word
         NSArray *wordListArray = [wordList componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]]; 
