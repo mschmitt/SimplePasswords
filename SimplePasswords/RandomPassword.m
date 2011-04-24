@@ -3,7 +3,7 @@
 //  SimplePasswords
 //
 //  Created by Martin Schmitt on 22.04.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Martin Schmitt < mas at scsy dot de >
 //
 
 #import "RandomPassword.h"
