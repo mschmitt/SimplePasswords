@@ -26,9 +26,11 @@
     if (2 == selectedMode){
         [secureStrengthSelector setHidden:NO];
         [secureStrengthLabel setHidden:NO];
+        [secureStrengthDescription setHidden:NO];
     }else{
         [secureStrengthSelector setHidden:YES];
         [secureStrengthLabel setHidden:YES];
+        [secureStrengthDescription setHidden:YES];
     }
     selectedStrength = [secureStrengthSelector intValue];
     [self updateStrengthLabel];
@@ -42,9 +44,11 @@
     if (2 == selectedMode){
         [secureStrengthSelector setHidden:NO];
         [secureStrengthLabel setHidden:NO];
+        [secureStrengthDescription setHidden:NO];
     }else{
         [secureStrengthSelector setHidden:YES];
         [secureStrengthLabel setHidden:YES];
+        [secureStrengthDescription setHidden:YES];
     }
     NSLog(@"New selectedMode is: %d", selectedMode);
     [self updateGeneratedPasswords];
@@ -89,7 +93,7 @@
 }
 
 - (void)updateStrengthLabel {
-    [secureStrengthLabel setStringValue:[NSString stringWithFormat:@"Length for \"Stronger\" passwords: %i", selectedStrength]];
+    [secureStrengthLabel setStringValue:[NSString stringWithFormat:@"%i", selectedStrength]];
 }
 
 

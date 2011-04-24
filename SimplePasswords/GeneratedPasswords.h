@@ -16,6 +16,7 @@
     IBOutlet id modeSelector;
     IBOutlet id secureStrengthSelector;
     IBOutlet id secureStrengthLabel;
+    IBOutlet id secureStrengthDescription;
     IBOutlet id generatedPassword1;
     IBOutlet id generatedPassword2;
     IBOutlet id generatedPassword3;
