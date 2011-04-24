@@ -15,13 +15,14 @@
 		5B00F93C135F897A002FA15C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B00F93A135F897A002FA15C /* MainMenu.xib */; };
 		5B00F945135F89F1002FA15C /* GeneratedPasswords.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00F943135F89F1002FA15C /* GeneratedPasswords.m */; };
 		5B58948C1364323700F7E096 /* GeneratedPasswords.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B58948E1364323700F7E096 /* GeneratedPasswords.xib */; };
+		5B7F846213644E62003B9CF6 /* words in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F846113644E62003B9CF6 /* words */; };
+		5B7F846413644E93003B9CF6 /* README_WORDS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F846313644E93003B9CF6 /* README_WORDS.txt */; };
 		5BF055101360A1C400AB01BF /* DictBasedPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0550F1360A1C400AB01BF /* DictBasedPassword.m */; };
 		5BF055191360A90200AB01BF /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BF055181360A90200AB01BF /* Icon.icns */; };
 		5BF055381360BBCA00AB01BF /* objpcre.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF055361360BBCA00AB01BF /* objpcre.m */; };
 		5BF0553A1360BC9400AB01BF /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF055391360BC9400AB01BF /* libpcre.a */; };
 		5BF0553D1360BD3900AB01BF /* README_OBJPCRE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0553C1360BD3900AB01BF /* README_OBJPCRE.txt */; };
 		5BF055501361901200AB01BF /* RandomPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0554F1361901200AB01BF /* RandomPassword.m */; };
-		5BF0555313621E0600AB01BF /* words in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0555213621E0600AB01BF /* words */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		5B5894901364324D00F7E096 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/GeneratedPasswords.xib; sourceTree = "<group>"; };
 		5B5894911364335000F7E096 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5B7F845D136434D8003B9CF6 /* SimplePasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7F846113644E62003B9CF6 /* words */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words; sourceTree = "<group>"; };
+		5B7F846313644E93003B9CF6 /* README_WORDS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_WORDS.txt; sourceTree = "<group>"; };
 		5BF0550E1360A1C400AB01BF /* DictBasedPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictBasedPassword.h; path = SimplePasswords.xcodeproj/DictBasedPassword.h; sourceTree = SOURCE_ROOT; };
 		5BF0550F1360A1C400AB01BF /* DictBasedPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictBasedPassword.m; path = SimplePasswords.xcodeproj/DictBasedPassword.m; sourceTree = SOURCE_ROOT; };
 		5BF055181360A90200AB01BF /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
@@ -53,7 +56,6 @@
 		5BF0553C1360BD3900AB01BF /* README_OBJPCRE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_OBJPCRE.txt; sourceTree = "<group>"; };
 		5BF0554E1361901100AB01BF /* RandomPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomPassword.h; sourceTree = "<group>"; };
 		5BF0554F1361901200AB01BF /* RandomPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomPassword.m; sourceTree = "<group>"; };
-		5BF0555213621E0600AB01BF /* words */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +122,14 @@
 		5B00F92C135F897A002FA15C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B7F846113644E62003B9CF6 /* words */,
 				5BF055181360A90200AB01BF /* Icon.icns */,
-				5BF0555213621E0600AB01BF /* words */,
 				5B00F92D135F897A002FA15C /* SimplePasswords-Info.plist */,
 				5B00F92E135F897A002FA15C /* InfoPlist.strings */,
 				5B00F931135F897A002FA15C /* SimplePasswords-Prefix.pch */,
 				5B00F932135F897A002FA15C /* main.m */,
 				5B00F934135F897A002FA15C /* Credits.rtf */,
+				5B7F846313644E93003B9CF6 /* README_WORDS.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,7 +231,8 @@
 				5B58948C1364323700F7E096 /* GeneratedPasswords.xib in Resources */,
 				5BF055191360A90200AB01BF /* Icon.icns in Resources */,
 				5BF0553D1360BD3900AB01BF /* README_OBJPCRE.txt in Resources */,
-				5BF0555313621E0600AB01BF /* words in Resources */,
+				5B7F846213644E62003B9CF6 /* words in Resources */,
+				5B7F846413644E93003B9CF6 /* README_WORDS.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
