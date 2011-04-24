@@ -19,9 +19,6 @@
 		5B7F846513645931003B9CF6 /* words in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F846713645931003B9CF6 /* words */; };
 		5BF055101360A1C400AB01BF /* DictBasedPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0550F1360A1C400AB01BF /* DictBasedPassword.m */; };
 		5BF055191360A90200AB01BF /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BF055181360A90200AB01BF /* Icon.icns */; };
-		5BF055381360BBCA00AB01BF /* objpcre.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF055361360BBCA00AB01BF /* objpcre.m */; };
-		5BF0553A1360BC9400AB01BF /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF055391360BC9400AB01BF /* libpcre.a */; };
-		5BF0553D1360BD3900AB01BF /* README_OBJPCRE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF0553C1360BD3900AB01BF /* README_OBJPCRE.txt */; };
 		5BF055501361901200AB01BF /* RandomPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0554F1361901200AB01BF /* RandomPassword.m */; };
 /* End PBXBuildFile section */
 
@@ -50,11 +47,6 @@
 		5BF0550E1360A1C400AB01BF /* DictBasedPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictBasedPassword.h; path = SimplePasswords.xcodeproj/DictBasedPassword.h; sourceTree = SOURCE_ROOT; };
 		5BF0550F1360A1C400AB01BF /* DictBasedPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictBasedPassword.m; path = SimplePasswords.xcodeproj/DictBasedPassword.m; sourceTree = SOURCE_ROOT; };
 		5BF055181360A90200AB01BF /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
-		5BF055351360BBCA00AB01BF /* objpcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objpcre.h; sourceTree = "<group>"; };
-		5BF055361360BBCA00AB01BF /* objpcre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objpcre.m; sourceTree = "<group>"; };
-		5BF055371360BBCA00AB01BF /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
-		5BF055391360BC9400AB01BF /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcre.a; sourceTree = "<group>"; };
-		5BF0553C1360BD3900AB01BF /* README_OBJPCRE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_OBJPCRE.txt; sourceTree = "<group>"; };
 		5BF0554E1361901100AB01BF /* RandomPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomPassword.h; sourceTree = "<group>"; };
 		5BF0554F1361901200AB01BF /* RandomPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomPassword.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B00F926135F897A002FA15C /* Cocoa.framework in Frameworks */,
-				5BF0553A1360BC9400AB01BF /* libpcre.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +105,6 @@
 				5BF055111360A1D300AB01BF /* AppDelegate & MainMenu */,
 				5BF055121360A1ED00AB01BF /* Main View */,
 				5BF055131360A20200AB01BF /* Password Generation */,
-				5BF0553B1360BCAE00AB01BF /* objpcre.sf.net */,
 				5B00F92C135F897A002FA15C /* Supporting Files */,
 			);
 			path = SimplePasswords;
@@ -164,18 +154,6 @@
 				5BF0554F1361901200AB01BF /* RandomPassword.m */,
 			);
 			name = "Password Generation";
-			sourceTree = "<group>";
-		};
-		5BF0553B1360BCAE00AB01BF /* objpcre.sf.net */ = {
-			isa = PBXGroup;
-			children = (
-				5BF0553C1360BD3900AB01BF /* README_OBJPCRE.txt */,
-				5BF055391360BC9400AB01BF /* libpcre.a */,
-				5BF055351360BBCA00AB01BF /* objpcre.h */,
-				5BF055361360BBCA00AB01BF /* objpcre.m */,
-				5BF055371360BBCA00AB01BF /* pcre.h */,
-			);
-			name = objpcre.sf.net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +209,6 @@
 				5B00F93C135F897A002FA15C /* MainMenu.xib in Resources */,
 				5B58948C1364323700F7E096 /* GeneratedPasswords.xib in Resources */,
 				5BF055191360A90200AB01BF /* Icon.icns in Resources */,
-				5BF0553D1360BD3900AB01BF /* README_OBJPCRE.txt in Resources */,
 				5B7F846513645931003B9CF6 /* words in Resources */,
 				5B7F846413644E93003B9CF6 /* README_WORDS.txt in Resources */,
 			);
@@ -248,7 +225,6 @@
 				5B00F939135F897A002FA15C /* SimplePasswordsAppDelegate.m in Sources */,
 				5B00F945135F89F1002FA15C /* GeneratedPasswords.m in Sources */,
 				5BF055101360A1C400AB01BF /* DictBasedPassword.m in Sources */,
-				5BF055381360BBCA00AB01BF /* objpcre.m in Sources */,
 				5BF055501361901200AB01BF /* RandomPassword.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

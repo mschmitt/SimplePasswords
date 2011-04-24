@@ -7,7 +7,6 @@
 //
 
 #import "DictBasedPassword.h"
-#import "objpcre.h"
 
 @implementation DictBasedPassword
 
@@ -27,12 +26,10 @@
         // -> Toss into 4- and 3-letter arrays
         threeLetterWords = [[NSMutableArray alloc] init];
         fourLetterWords  = [[NSMutableArray alloc] init];
-        ObjPCRE *regexThreeLetterWord = [ObjPCRE regexWithPattern:@"^[a-zA-Z]{3}$"];
-        ObjPCRE *regexFourLetterWord  = [ObjPCRE regexWithPattern:@"^[a-zA-Z]{4}$"];
         for (NSString *aWord in wordListArray) {
-            if ([regexThreeLetterWord matches:aWord]){
+            if ((3 == [aWord length]) && (3 == [aWord lengthOfBytesUsingEncoding:NSUTF8StringEncoding])){
                 [threeLetterWords addObject:aWord];
-            }else if ([regexFourLetterWord matches:aWord]){
+            }else if ((4 == [aWord length]) && (4 == [aWord lengthOfBytesUsingEncoding:NSUTF8StringEncoding])){
                 [fourLetterWords addObject:aWord];
             }                
         }
