@@ -14,7 +14,7 @@
 		5B00F939135F897A002FA15C /* SimplePasswordsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00F938135F897A002FA15C /* SimplePasswordsAppDelegate.m */; };
 		5B00F93C135F897A002FA15C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B00F93A135F897A002FA15C /* MainMenu.xib */; };
 		5B00F945135F89F1002FA15C /* GeneratedPasswords.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00F943135F89F1002FA15C /* GeneratedPasswords.m */; };
-		5B00F946135F89F1002FA15C /* GeneratedPasswords.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B00F944135F89F1002FA15C /* GeneratedPasswords.xib */; };
+		5B58948C1364323700F7E096 /* GeneratedPasswords.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B58948E1364323700F7E096 /* GeneratedPasswords.xib */; };
 		5BF055101360A1C400AB01BF /* DictBasedPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0550F1360A1C400AB01BF /* DictBasedPassword.m */; };
 		5BF055191360A90200AB01BF /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BF055181360A90200AB01BF /* Icon.icns */; };
 		5BF055381360BBCA00AB01BF /* objpcre.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF055361360BBCA00AB01BF /* objpcre.m */; };
@@ -25,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B00F921135F897A002FA15C /* SimplePasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B00F925135F897A002FA15C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5B00F928135F897A002FA15C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5B00F929135F897A002FA15C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -40,10 +39,13 @@
 		5B00F93B135F897A002FA15C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5B00F942135F89F1002FA15C /* GeneratedPasswords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPasswords.h; sourceTree = "<group>"; };
 		5B00F943135F89F1002FA15C /* GeneratedPasswords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPasswords.m; sourceTree = "<group>"; };
-		5B00F944135F89F1002FA15C /* GeneratedPasswords.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneratedPasswords.xib; sourceTree = "<group>"; };
+		5B58948D1364323700F7E096 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GeneratedPasswords.xib; sourceTree = "<group>"; };
+		5B5894901364324D00F7E096 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/GeneratedPasswords.xib; sourceTree = "<group>"; };
+		5B5894911364335000F7E096 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5B7F845D136434D8003B9CF6 /* SimplePasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF0550E1360A1C400AB01BF /* DictBasedPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictBasedPassword.h; path = SimplePasswords.xcodeproj/DictBasedPassword.h; sourceTree = SOURCE_ROOT; };
 		5BF0550F1360A1C400AB01BF /* DictBasedPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictBasedPassword.m; path = SimplePasswords.xcodeproj/DictBasedPassword.m; sourceTree = SOURCE_ROOT; };
-		5BF055181360A90200AB01BF /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		5BF055181360A90200AB01BF /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
 		5BF055351360BBCA00AB01BF /* objpcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objpcre.h; sourceTree = "<group>"; };
 		5BF055361360BBCA00AB01BF /* objpcre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objpcre.m; sourceTree = "<group>"; };
 		5BF055371360BBCA00AB01BF /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
@@ -70,7 +72,6 @@
 		5B00F916135F897A002FA15C = {
 			isa = PBXGroup;
 			children = (
-				5BF055181360A90200AB01BF /* Icon.icns */,
 				5B00F92B135F897A002FA15C /* SimplePasswords */,
 				5B00F924135F897A002FA15C /* Frameworks */,
 				5B00F922135F897A002FA15C /* Products */,
@@ -80,7 +81,7 @@
 		5B00F922135F897A002FA15C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B00F921135F897A002FA15C /* SimplePasswords.app */,
+				5B7F845D136434D8003B9CF6 /* SimplePasswords.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +120,7 @@
 		5B00F92C135F897A002FA15C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BF055181360A90200AB01BF /* Icon.icns */,
 				5BF0555213621E0600AB01BF /* words */,
 				5B00F92D135F897A002FA15C /* SimplePasswords-Info.plist */,
 				5B00F92E135F897A002FA15C /* InfoPlist.strings */,
@@ -144,7 +146,7 @@
 			children = (
 				5B00F942135F89F1002FA15C /* GeneratedPasswords.h */,
 				5B00F943135F89F1002FA15C /* GeneratedPasswords.m */,
-				5B00F944135F89F1002FA15C /* GeneratedPasswords.xib */,
+				5B58948E1364323700F7E096 /* GeneratedPasswords.xib */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -189,7 +191,7 @@
 			);
 			name = SimplePasswords;
 			productName = SimplePasswords;
-			productReference = 5B00F921135F897A002FA15C /* SimplePasswords.app */;
+			productReference = 5B7F845D136434D8003B9CF6 /* SimplePasswords.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -203,6 +205,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 5B00F916135F897A002FA15C;
 			productRefGroup = 5B00F922135F897A002FA15C /* Products */;
@@ -222,7 +225,7 @@
 				5B00F930135F897A002FA15C /* InfoPlist.strings in Resources */,
 				5B00F936135F897A002FA15C /* Credits.rtf in Resources */,
 				5B00F93C135F897A002FA15C /* MainMenu.xib in Resources */,
-				5B00F946135F89F1002FA15C /* GeneratedPasswords.xib in Resources */,
+				5B58948C1364323700F7E096 /* GeneratedPasswords.xib in Resources */,
 				5BF055191360A90200AB01BF /* Icon.icns in Resources */,
 				5BF0553D1360BD3900AB01BF /* README_OBJPCRE.txt in Resources */,
 				5BF0555313621E0600AB01BF /* words in Resources */,
@@ -268,8 +271,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B00F93B135F897A002FA15C /* en */,
+				5B5894911364335000F7E096 /* de */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5B58948E1364323700F7E096 /* GeneratedPasswords.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B58948D1364323700F7E096 /* en */,
+				5B5894901364324D00F7E096 /* de */,
+			);
+			name = GeneratedPasswords.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +336,7 @@
 					"\"$(SRCROOT)/SimplePasswords\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,6 +358,7 @@
 					"\"$(SRCROOT)/SimplePasswords\"",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
